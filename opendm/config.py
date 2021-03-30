@@ -1,3 +1,5 @@
+pip install appsettings
+
 import argparse
 import json
 from opendm import context
