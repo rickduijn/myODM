@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#jandebruinhexplosie
 # Basic check
 import sys
 if sys.version_info.major < 3:
