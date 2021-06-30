@@ -68,7 +68,7 @@ def split(input_point_cloud, outdir, filename_template, capacity, dims=None):
     return [os.path.join(outdir, f) for f in os.listdir(outdir)]
 
 
-def filter(input_point_cloud, output_point_cloud, standard_deviation=2.5, meank=, sample_radius=0, verbose=False, max_concurrency=1):
+def filter(input_point_cloud, output_point_cloud, standard_deviation=2.5, meank=50, sample_radius=0, verbose=False, max_concurrency=1):
     """
     Filters a point cloud
     """
